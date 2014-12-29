@@ -27,7 +27,7 @@ class Application(object):
         # 你的照片 url
         self.photo_url = 'http://placekitten.com/g/350/300'
         # 這裡是心得
-        self.my_remark = "123"
+        self.my_remark = """
         Computer Programming is good course
         """
 
