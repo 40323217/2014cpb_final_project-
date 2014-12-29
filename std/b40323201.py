@@ -25,7 +25,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 80), ('Project 8', 80), ('Project 9', 80)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/LvwRZQ0lXxyhhSrl'
         # 這裡是心得
         self.my_remark = """
         Computer Programming is good course
