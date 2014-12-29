@@ -13,9 +13,9 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '詹偉志'
+        self.name = '鄭智文'
         # 你的學號
-        self.number = '40323250'
+        self.number = '40323255'
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
@@ -27,7 +27,7 @@ class Application(object):
         # 你的照片 url
         self.photo_url = 'http://placekitten.com/g/350/300'
         # 這裡是心得
-        self.my_remark = "123"
+        self.my_remark = """
         Computer Programming is good course
         """
 
