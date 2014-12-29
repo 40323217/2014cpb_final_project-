@@ -13,9 +13,9 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '鄭智文'
+        self.name = 'Just Example'
         # 你的學號
-        self.number = '40323255'
+        self.number = '40323199'
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
