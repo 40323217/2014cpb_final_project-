@@ -17,13 +17,13 @@ class Application(object):
         # 你的學號
         self.number = '40323207'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '設計一乙'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
         # 你的 openshift app
         self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 7040323207)]
         # 你的照片 url
         self.photo_url = 'http://placekitten.com/g/350/300'
         # 這裡是心得
