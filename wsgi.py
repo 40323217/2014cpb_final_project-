@@ -45,7 +45,7 @@ std_list = None
 ta_mode = True
 ta_list = None
 
-if std_class == 'a':
+if std_class == 'b':
     std_list = [["403231{0:02d}".format(s), "active"] for s in range(1, 58)]
 else:
     std_list = [['40031226', 'active'], ['40223216', 'active']] + [["403232{0:02d}".format(s), "active"] for s in range(1, 57)]
