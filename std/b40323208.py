@@ -19,9 +19,9 @@ class Application(object):
         # 你的班級
         self.classes = '設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/40323208/2014_cp_project-40323208888'
+        self.github_repo_url = 'https://github.com/40323208/2014cp_project_40323208.git'
         # 你的 openshift app
-        self.openshift_url = 'http://403232088-40323208.rhcloud.com/'
+        self.openshift_url = 'http://b40323208-40323208.rhcloud.com/'
         # 你的自評
         self.evaluation = [('Project 7', 70), ('Project 8', 80), ('Project 9', 70)]
         # 你的照片 url
