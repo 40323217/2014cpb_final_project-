@@ -19,13 +19,13 @@ class Application(object):
         # 你的班級
         self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/chenzj525/2014cp_project_40323205'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://b40323205-40323205.rhcloud.com/'
         # 你的自評
         self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/OzCKlbKNEHsh'
+        self.photo_url = 'https://copy.com/rXmyfgbLjbyYnwIr'
         # 這裡是心得
         self.my_remark = """
         Computer Programming is good course
