@@ -13,11 +13,11 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '陳子潔'
+        self.name = '姜智翔'
         # 你的學號
-        self.number = '40323205'
+        self.number = '40323225'
         # 你的班級
-        self.classes = '四設計一乙'
+        self.classes = 'nfu'
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
         # 你的 openshift app
@@ -25,7 +25,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/OzCKlbKNEHsh'
+        self.photo_url = 'http://placekitten.com/g/350/300'
         # 這裡是心得
         self.my_remark = """
         Computer Programming is good course
