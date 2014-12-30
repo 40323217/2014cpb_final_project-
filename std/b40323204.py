@@ -23,7 +23,7 @@ class Application(object):
         # 你的 openshift app
         self.openshift_url = 'http://2014cp-40323204.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 85), ('Project 8', 85), ('Project 9', 88)]
+        self.evaluation = [('Project 7', 90), ('Project 8', 85), ('Project 9', 90)]
         # 你的照片 url
         self.photo_url = 'https://copy.com/a10O9YyCzAgz'
         # 這裡是心得
@@ -96,7 +96,7 @@ Take a guess.
 Your guess is too high.
 Nope. The number I was thinking of was 19
 &gt;Exit code: 0</pre>
-<p><span style="font-size: 18px;"><span style="background-color: #ffff00;">第二步</span><span style="background-color: #ffff00;">-更改LEO內容使的遊戲可在遠端執行</span><br></span></p>
+<p><span style="font-size: 18px;"><span style="background-color: #ffff00;">第二步</span><span style="background-color: #ffff00;">-更改LEO內容使得遊戲可在遠端執行</span><br></span></p>
 <p><span style="font-size: 18px;">下載老師所提供的程式再根據程式進行修改</span></p>
 <p><span style="font-size: 18px;">根據老師影片的作法更改<a href="http://vimeo.com/114514650">http://vimeo.com/114514650</a></span></p>
 <p><span style="font-size: 18px;">補充:print須改為return才能在遠端中執行</span></p>
@@ -121,7 +121,7 @@ Nope. The number I was thinking of was 19
 <p><span style="font-size: 18px;">           (4)git push</span></p>
 <p><span style="font-size: 18px;">推回成功後即所有東西都傳回了github</span></p>
 <p><span style="font-size: 18px;">所需的東西可參考老師的:<a href="https://github.com/chiamingyen/2014cp_project">https://github.com/chiamingyen/2014cp_project</a></span></p>
-<p><span style="font-size: 18px; background-color: #ffff00;">第五步<span style="background-color: #ffffff;"><span style="background-color: #ffff00;">-</span><span><span style="background-color: #ffff00;">建立 OpenShift Python 3.3 應用程式</span> (同時處理近端 V:\home\.ssh\id_rsa 與 OpenShift setting 上私鑰與公鑰的權限認證)</span></span></span></p>
+<p><span style="font-size: 18px; background-color: #ffff00;">第五步<span style="background-color: #ffffff;"><span style="background-color: #ffff00;">-</span><span><span style="background-color: #ffff00;">建立 OpenShift Python 3.3 應用程式</span><span style="background-color: #ffff00;"> (同時處理近端 V:\home\.ssh\id_rsa 與 OpenShift setting 上私鑰與公鑰的權限認證)</span></span></span></span></p>
 <p><span style="font-size: 18px;">(1)OpenShift 上的 1b 共同鑰匙</span><span style="font-size: 18px;">近端: </span><a style="font-size: 18px;" href="http://cpgroup.kmol.info/public/cp/2014fall/1b/">http://cpgroup.kmol.info/public/cp/2014fall/1b/</a></p>
 <p><span style="font-size: 18px;">(2)<span>利用 Github 倉儲作為程式碼, 完成後 OpenShift 上的程式碼與此階段的 Github 程式碼為同一版本</span></span></p>
 <p><span style="font-size: 18px;">詳細步驟:</span></p>
@@ -156,7 +156,7 @@ Nope. The number I was thinking of was 19
 <p><span style="font-size: 18px;"> 更改完後git add .</span></p>
 <p><span style="font-size: 18px;">             git commit -m "add 40323204"</span></p>
 <p><span style="font-size: 18px;">             git push即完成</span></p>
-<p><span style="font-size: 18px;">自己得學號變成粉紅色極為成功</span></p>
+<p><span style="font-size: 18px;">自己的學號變成粉紅色即為成功</span></p>
 <p><span style="font-size: 18px;"> <img src="https://copy.com/EZxURbTQ8QG0SJBa" alt="" width="687" height="255"></span></p>
 <p><span style="font-size: 18px;">我的執行結果:<a href="http://cpb-nfutaiwan.rhcloud.com/40323204/">http://cpb-nfutaiwan.rhcloud.com/40323204/</a></span></p>
 <hr>
