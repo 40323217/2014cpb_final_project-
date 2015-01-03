@@ -21,7 +21,7 @@ class Application(object):
         # 你的 github repository url
         self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://2014cp-40323245.rhcloud.com/'
         # 你的自評
         self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
         # 你的照片 url
