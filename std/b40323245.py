@@ -17,18 +17,18 @@ class Application(object):
         # 你的學號
         self.number = '40323245'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/40323245/2014cp_project_40323245'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://2014cp-40323245.rhcloud.com/'
         # 你的自評
         self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/31EgsBtJHUtFG6Tt'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        終於完成了期末報告，完全無法靠自己的力量，還是需要老師的影片以及同學的範例才能完成任務！
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
