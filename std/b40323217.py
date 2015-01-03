@@ -28,7 +28,7 @@ class Application(object):
         self.photo_url = 'https://copy.com/4vbQRPcklDdC'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        https://140.130.17.17:8443/?id=1028
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
