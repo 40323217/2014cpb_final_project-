@@ -31,7 +31,7 @@ class Application(object):
 <p style="text-align: center;">學習電腦不僅僅是單純點點滑鼠玩線上遊戲，則是要與它溝通善加利用</p>
 <p style="text-align: center;">雖然python是程式語言中最簡單的一種，讓我這個門外漢吃了不少苦頭，卻也使我增加了想要學更多關於python的動力</p>
 <p style="text-align: center;">學習python的過程中遭受到許多挫折，但也因為更明白python的用處及用意，將這些挫折迎刃而解</p>
-<p style="text-align: center;">也學習到用 git 指令可以做到非常多事情，從一開始的個人倉儲到後面的協同倉儲，從一開始的個人網站到班上協同網站，完成的當下都讓我驚艷！</p>
+<p style="text-align: center;">學習到用 git 指令可以做到非常多事情，從一開始的個人倉儲到後面的協同倉儲，從一開始的個人網站到班上協同網站，完成的當下都讓我驚艷！</p>
 <p style="text-align: center;">期望自己能在python的世界裡，得到更多的資訊填滿腦袋，使自己變得更加充實！</p>
         """
 
