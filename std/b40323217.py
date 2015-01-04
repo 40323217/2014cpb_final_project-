@@ -27,8 +27,7 @@ class Application(object):
         # 你的照片 url
         self.photo_url = 'https://copy.com/4vbQRPcklDdC'
         # 這裡是心得
-        self.my_remark = """
-       123 < br /> 123 
+        self.my_remark = """ 123<br/>
  
         """
 
