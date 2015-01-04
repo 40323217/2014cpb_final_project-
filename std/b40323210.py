@@ -19,16 +19,16 @@ class Application(object):
         # 你的班級
         self.classes = 'nfu'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/40323210/benjamin19951231'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://benjamin19951231-40323210.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('Project 7', 80), ('Project 8', 85), ('Project 9', 85)]
         # 你的照片 url
-        self.photo_url = 'https://www.facebook.com/photo.php?fbid=1013590118656928&set=a.157490514266897.40484.100000178496716&type=1&theater/g/350/300'
+        self.photo_url = 'https://copy.com/VfvBl3GlgbKzMxA3'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        做了四個多小時，終於做完了，一開始做的時候，頭腦昏昏的，一直做一直錯，但是後來清醒了，我用少許的時間把前面做錯的東西全部都在做一次，做完後非常有成就感，就一直順順得做完了全部，雖然還是有很多東西不懂，但是我覺得這次的報告我已經盡我最大的能力了，無論大家怎麼評論我會給我自己85分，老師說過：『程式語言會成為將來溝通的一項工具』，我似乎有這種感覺了，未來如果有機會繼續接觸這一類型的課程，我想我還是會想辦法努力的把她學到最好，希望還有機會可以多多接觸程式語言。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
