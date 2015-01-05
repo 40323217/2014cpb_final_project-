@@ -23,12 +23,24 @@ class Application(object):
         # 你的 openshift app
         self.openshift_url = 'http://new40323248-40323248.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 75), ('Project 8', 80), ('Project 9', 80)]
+        self.evaluation = [('Project w11', 85), ('Project w12', 80), ('Project w15', 75)]
         # 你的照片 url
         self.photo_url = 'https://copy.com/hYXO7cYEI8of'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        這學期的計算機程式，即將告一段落，學到了在for i in range 迴圈，input是字串、int把字串轉換成整數，用兩個符號組成學號跟英文姓名，
+        利用puttygen exe. generate keyConversions →Export OpenSSH key→覆蓋  v槽的home→SSH→id_rsa ，save public key   save private key，
+        利用cmd，git clone 網址，cd 路徑匯入編輯器，git add . ，git commit -m "app"，git remote -v，git push。
+        在近端執行九九乘法表，並且推到遠端，然後在近端執行猜數字遊戲，把它推到openshift跟github，
+        相對於其他程式設計，python是最容易上手的，但對於初次接觸程式設計的我，是一大挑戰，常常一個小地方出錯，而耗掉好多時間，
+        但找到錯誤的地方，會讓自己更加深刻，並加以更正，錯過的地方，別再錯第二次，學到了就是自己的，晚上TA開課，也學到了很多，不能錯過，
+        上大學是讓自己學會獨立的踏板，想不想學，也是要看自己有沒有意願想學習，在家裡有人會督促你，而在外沒有人會管你，父母幫我們繳學費，給我們生活費，
+        不是來大學度假，而是要在出社會前，學到一些理論基礎，如果只是一副混混文憑畢業，讀了大學也是沒有用，拿到的也只是一張白紙。學與不學，只在一念之間。
+        現今科技持續不斷更新，想要生存, 就必須發展出目前尚未存在的高效解題工具、方法或流程，誰能以最快方式推出最高彈性的一流產品, 誰就能在全球連線與競合的環境中勝出!
+        製作期末報告時，謝謝班上同學的教導，還有老師上課時不厭倦的拍影片給我們回去複習，還有助教晚上的教導。
+        <br />要把程式碼PUSH上去遠端時，要先把遠端最新的PULL下來，先拉下來近端這邊，然後在把最新的跟自己的推上去遠端。
+        計算機程式讓我學習到什麼?  讓我學習到使用者是如何跟電腦溝通，如何運作。
+        
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
