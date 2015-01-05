@@ -28,7 +28,11 @@ class Application(object):
         self.photo_url = 'https://copy.com/zvmYSrNCeNJR'
         # 這裡是心得
         self.my_remark = """
+<<<<<<< HEAD
         謝謝老師這學期的教導,或許我還是有些許不懂,但我會再努力的
+=======
+       謝謝老師這學期的教導,或許我還是有些許不懂,但我會再努力的
+>>>>>>> 1d11d69b38461addf565314175e1f5555a511b13
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
