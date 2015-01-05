@@ -19,7 +19,7 @@ class Application(object):
         # 你的班級
         self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/chiamingyen/2014cp_project'
+        self.github_repo_url = 'https://github.com/40323212/2014cp_project_40323212'
         # 你的 openshift app
         self.openshift_url = 'http://cp40323212-40323212.rhcloud.com/'
         # 你的自評
