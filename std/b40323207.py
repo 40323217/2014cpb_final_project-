@@ -23,7 +23,7 @@ class Application(object):
         # 你的 openshift app
         self.openshift_url = 'http://b40323207-40323207.rhcloud.com/doCheck'
         # 你的自評
-        self.evaluation = [('Project 7', 90), ('Project 8', 90), ('Project 9', 90)]
+        self.evaluation = [('上課出席',20),('未遲到',20),('上課專心度',15),('功課繳交',15),('回家練習',12),('總分',82)]
         # 你的照片 url
         self.photo_url = 'https://copy.com/Q7UDf4ZXdOTG'
         # 這裡是心得
