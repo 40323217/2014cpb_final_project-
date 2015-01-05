@@ -17,9 +17,9 @@ class Application(object):
         # 你的學號
         self.number = '40323250'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/b850617/classhomework.git'
+        self.github_repo_url = 'https://github.com/b850617/classhomework'
         # 你的 openshift app
         self.openshift_url = 'http://python-40323250.rhcloud.com/'
         # 你的自評
