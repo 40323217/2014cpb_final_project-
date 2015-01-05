@@ -25,7 +25,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('期末自評分數 90')]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/CWLkHCPOvKfgbzZv/350/300'
+        self.photo_url = 'https://copy.com/CWLkHCPOvKfgbzZv'
         # 這裡是心得
         self.my_remark = """
         python 是一個能夠快速編譯的程式，
