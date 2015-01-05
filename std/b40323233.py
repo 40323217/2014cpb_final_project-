@@ -23,11 +23,7 @@ class Application(object):
         # 你的 openshift app
         self.openshift_url = 'http://b40323233-40323233.rhcloud.com/'
         # 你的自評
-<<<<<<< HEAD
         self.evaluation = [('期末自評', 80)]
-=======
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 90)]
->>>>>>> 62281ef808f25acc128d9d9f37cb4545fb9fb602
         # 你的照片 url
         self.photo_url = 'http://b40323233-40323233.rhcloud.com/'
         # 這裡是心得
