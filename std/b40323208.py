@@ -23,12 +23,20 @@ class Application(object):
         # 你的 openshift app
         self.openshift_url = 'http://b40323208-40323208.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 70), ('Project 8', 80), ('Project 9', 70)]
+        self.evaluation = [('作業', 80), ('練習', 78), ('總分', 80)]
         # 你的照片 url
         self.photo_url = 'https://copy.com/dKfcJJjroD1e'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        到後面有越多東西要同步，所以也越多東西要統整並上推，有時真的會混亂然後不知道怎麼進行下一步。
+
+當自己在進行時，常常卡住，也無法解決，就要尋問同學，並和同學一起討論.提出自己觀點.哪裡錯誤要加以改正，如果找不出為何不能上推，大家就更卯足全勁的思考討論.詢問老師和TA，最後成功解決，很有成就感也謝謝同學的互相幫助。
+
+上推到 Github 和 Openshift 的步驟，大多相同，只是有些小地方會忽略，導致錯誤，要再多加注意。
+
+這幾次作業中也學到了之前不知道的指令，像是: 有時要先 git pull 再 git push ，因為是遠端而且共用，所以要先將資料拉過來，加入自己的資料後，再上推。
+
+做期末報告，真的有種瀕臨崩潰的感覺，尤其是卡關的時候，但是當作業漸漸完成，心裡真的開心，也覺得自己從中學習到了什麼，有吸收進步。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
