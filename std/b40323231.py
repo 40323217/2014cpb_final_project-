@@ -28,7 +28,8 @@ class Application(object):
         self.photo_url = 'https://copy.com/hXLxbdkVSmhT'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        一學期下來我學到了很多，而在這之前我從未碰過這類的程式，因此我在課堂中需要比人家更加專注，而且我也利用星期一晚上時間去上課，
+        雖然我沒有班上有些人那麼厲害，可是我認為我有在這門課程中學到了很多有用的東西，而且自己也有嘗試修改一些程式來練習。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
