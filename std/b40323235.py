@@ -17,18 +17,19 @@ class Application(object):
         # 你的學號
         self.number = '40323235'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/b51382909/40323235'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://40323235-40323235.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('期末自評分數', 80)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/NAxb1byPqdNXWSZe'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        大一上的計算機概論，我學到了構築程式的一些基本觀念，還記得第一堂課，感覺要做一個猜數字的成是根本是不可能，隨著一堂一堂課，一份又一份的作業的完成，我慢慢學會了，雖然不是完全學會，但多多少少會了一點，在課程上除了能學會一些程式外，還能了解未來程式的方向，能用來檢視自己在未來能否生存，雖然現在會得不是很多，
+        也不是很難，但一點一滴慢慢累積，相信未來還是用得上。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
