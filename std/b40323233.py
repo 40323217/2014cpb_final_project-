@@ -25,7 +25,7 @@ class Application(object):
         # 你的自評
         self.evaluation = [('期末自評', 80)]
         # 你的照片 url
-        self.photo_url = 'http://b40323233-40323233.rhcloud.com/'
+        self.photo_url = 'https://copy.com/qSbYe4FamPDiHtsd'
         # 這裡是心得
         self.my_remark = """
         這個學期上了計算機概論，我覺得我學到了很多電腦的指令，這些都是從不會做，然後一直
