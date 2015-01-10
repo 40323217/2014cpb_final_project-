@@ -17,18 +17,20 @@ class Application(object):
         # 你的學號
         self.number = '40323211'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/40323211/40323211'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://4032321111-40323211.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('期末自評分數', 80)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/ZYpEIGi68LYf'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        從老師的github倉儲複製至新建的倉儲,更改資料等沒什麼問題
+        在來往下的部分有幸找到同學來指導方能完成,對於門課的完成
+        度不盡滿意,有待多多練習
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
