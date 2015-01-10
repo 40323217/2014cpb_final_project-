@@ -17,18 +17,21 @@ class Application(object):
         # 你的學號
         self.number = '40323252'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/40323252/2014cp_project_40323252-2'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://b40323252-40323252.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('期末分數自評', 85)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/AW19ISU129Sxv1B8'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        在這個數位化的社會裡,白紙黑字好像變得不切實際,而透過程式來輔助我們漸漸的將會取代白紙黑字的時代,而我們現在學得我覺得最重要的是先把近端遠端如何執行這些步驟好好學起來,
+        接下來發展到程式碼.設計,將這些東西融會貫通變成自己的東西,
+        我相信這會對我們幫助很大的,而今天這期末報告雖然我還沒有這能力獨立完成,
+        但還是看著同學分享的步驟一步一步的完成,只要再多努力我相信可以更好的。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
