@@ -17,18 +17,18 @@ class Application(object):
         # 你的學號
         self.number = '40323213'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/nashnash/40323213'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://40323213-40323213.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('w11', 80), ('w12', 80), ('期末自評分數', 75)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/qHaXWR1C4Q4s'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        上了半學期的計概課，發現他是一門很重要的課，python可以快速的將資料上傳到雲端，但是上傳的步驟有點複雜，在這學期終於學會了如何把資料上傳到網路上，在這其中，指令的順續、密碼的對錯都深深的困擾著我，而經過同學之間的幫助終於搞清楚了。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

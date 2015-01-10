@@ -17,18 +17,22 @@ class Application(object):
         # 你的學號
         self.number = '40323217'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/Openandgit/2014cp_project--40323217'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://newsfile-40323217gm.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('Project 7', 80), ('Project 8', 85), ('Project 9', 85)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/4vbQRPcklDdC'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+在快速的時代需要有一種工具可以快速的寫好程式(python),並且在近端遠端都有備份，以及在做專案的時候可以有協同者(collabortors)共同開發專案,還有能夠使用github、bitbucket、cherrypy這些都是在這學期的計算機程式當中很重要的一環，
+假如程式在遠端近端都有備份近端電腦如果發生問題，資料在遠端還會有備份github的功能) ，在來就是開發個人服務功能,客戶網站上輸入需要的工具或是商品，輸入他們需要的尺寸或者商品編號，
+能夠自動出現"客製化"的商品達到滿足客戶的要求，這也是本學期重要的一環。<br />而在全球化的競爭當中學好英文也是未來的趨勢，不僅要會寫程式也要會有流利的語言能力，這是一個機械工程師所需要具備的能力，還有就是口條能力，能夠在設計出程式之後可以簡潔有力地介紹出產品的特點及功能。
+<br />還有就是終生學習，學習程式碼是這學期的課程，但是這是入門，往後的路還很長所以必須達到終生學習的目標。
+ 
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

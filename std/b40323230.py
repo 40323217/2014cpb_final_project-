@@ -13,22 +13,23 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '張立昇'
+        self.name = '張元'
         # 你的學號
         self.number = '40323230'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/40323230/40323230.git'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://40323230-b40323230.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('期末自評分數', 75)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/nkyhMYgL6ZVadjly'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        學習python的過程中，我學到如何以下指令的方式和本機與雲端的電腦溝通；學到如何傳送檔案到雲端，建立起季己的網頁，並在網站上運行程式。程式語言從無中生有是一件不容易的事，
+        必須了解電腦程式與各方面的關聯，並串聯各種架構，才能完成一件看似簡單、卻環環相扣的網頁成品。之中常常遇到各種錯誤，要自己去尋找解答，看懂英文提示，才能找出問題的癥結點。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

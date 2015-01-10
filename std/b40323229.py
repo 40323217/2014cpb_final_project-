@@ -17,18 +17,20 @@ class Application(object):
         # 你的學號
         self.number = '40323229'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/tsrnnash/40323229'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://40323229-40323229.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('期末自評分數', 80)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/bkhG92lxQz3W'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        在一開始完全不知道要從何處下手，在班上同學的教導之後才
+        漸漸了解 像git clone 的意思
+        而從中慢慢了解到每個步驟的意思 還蠻有趣的。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

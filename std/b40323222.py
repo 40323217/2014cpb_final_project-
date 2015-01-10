@@ -17,18 +17,34 @@ class Application(object):
         # 你的學號
         self.number = '40323222'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/40323222/123'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://add-file2.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 85), ('Project 9', 90)]
+        self.evaluation = [('第11周', 80), ('第12周', 85), ('第15周', 85)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/tL2bBDl7MFgkwZMD'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        從剛開始在SciTE近端學的簡單語言 (例：for I in range (xxx)、spam、if… else…)一直到後來使用openshift、github等遠端的系統，再來就是與全班協同完成期末作業。<br/>
+        「Python除了在近端執行外，並可同步到github、openshift等遠端系統。」我們在此短短一學期內就嘗試了上敘python之優點。<br/>
+        使用過程：<br/>
+        1.	For迴圈：<br/>
+        (1)	「for b in range (X,Y,Z) :」的意思，"b" 為第b行；"X" 為從第X行開始；"Y" 為到第Y行停止；"Z" 為遞增或遞減幾個數。<br/>
+        (2)	若上一行的開頭為 ”for” 或結尾有 ”：” 符號時，則需先打4格空白鍵<br/>
+        (3)	承上，另一種為直接輸入，與上一行齊平。用於顯示上一行設定之文字或變數等。<br/>
+        2.	網頁數字圖形：<br/>
+        「row = 9」指從第一行開始列印，直到第9行時，就換排列印，即第二排第1行，依序 ...<br/>
+        3.	Git指令：<br/>
+        (1)	git clone  --> 下載<br/>
+        (2)	cd “資料夾” --> 進入”資料夾”內<br/>
+        (3)	git add .  --> 新增所有資料<br/>
+        (4)	git commit -m "文字" --> 給以上資料作註解<br/>
+        (5)	git pull --> 推下來 (使用時機：若一起協同，需先下載最新的版本，方可push)<br/>
+        (6)	git push  --> 推回去<br/>
+
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

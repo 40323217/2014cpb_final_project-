@@ -13,22 +13,21 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '郭育維'
+        self.name = '施郁琪'
         # 你的學號
-        self.number = '40323237'
+        self.number = '40323203'
         # 你的班級
         self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/as19735/40323237'
+        self.github_repo_url = 'https://github.com/Sbetty/2014cp_project_40323203.git'
         # 你的 openshift app
-        self.openshift_url = 'http://40323237a-pythona.rhcloud.com/'
+        self.openshift_url = 'http://cpb40323203-40323203.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('期末自評分數', 85)]
+        self.evaluation = [('Project 7', 70), ('Project 8', 75), ('Project 9', 80)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/u9qlpSTCsqd4DVp4'
+        self.photo_url = 'https://copy.com/9JKIncXt4DKsYZuS'
         # 這裡是心得
-        self.my_remark = """
-       這次期末報告中，常常需要使用到GITCLONE、PUSH、PULL等等指令，若沒有同學們的幫助可能很難做得出來。而猜數字的程式碼更是不簡單，幾個人研究了好久還是不行..在經過一番努力之後終於成功了!
+        self.my_remark = """期中考前的課程是在要交期中報告時才知道所有的課程在教什麼，而這次的課程也是一樣是在做期末報告時才學習到了解到為何要學習python程式的原因，老師上課有說到學習python程式是所有程式中最簡單的一項也是基礎的一項，而我在學習過程中竟然如此的艱難，在上課時卻完全聽不懂老師的上課內容，直到下課回去聽老師上課錄的課程以及晚上去上TA的課才慢慢的跟上腳步，而在這次的課程我學習到的東西很多，希望在未來的時代能夠創立屬於自己的程式，可以自行設定自行修改自己要的內容，並且讓大家知道程式語言的厲害。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

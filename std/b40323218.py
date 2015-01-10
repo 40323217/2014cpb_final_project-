@@ -17,18 +17,21 @@ class Application(object):
         # 你的學號
         self.number = '40323218'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/40323218/python'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://python-40323218.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('Project 7', 90), ('Project 8', 90), ('Project 9', 90)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/ztHuM9MxCjGepGcx'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        這學期教的python課程讓我學到許多，從一開始什麼都不懂到現在學會一些基礎，雖然這些只是基礎中的基礎，但也讓我獲益良多。<br />
+        每次上課聽老師的講解雖然有時一知半解，但在同學和TA的幫助下已經可以把功課做出來了。<br />
+        這學期學會如何使用在openshift建立內容、在github建立倉儲、在Leo Editer管理自己的內容，只能說學會了太多太多。<br />
+        感謝這學期老師和TA的努力教學，也感謝同學們的幫助幫助我解決許多困難，我只能說這學期讓我過得非常充實。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

@@ -17,18 +17,20 @@ class Application(object):
         # 你的學號
         self.number = '40323250'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/b850617/classhomework'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://python-40323250.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('期末自評分數',85)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/CWLkHCPOvKfgbzZv'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        在學python之前，曾經玩過用Java寫過的遊戲，裡面也是要輸入語法才能玩，所以對python不是很陌生，對於網際程式的撰寫至少能夠一點一點的推出來，
+        要了解一個程式，最不明智的方法就是一個一個刪除，然後去看程式是否錯誤或是哪裡做了更動，這樣可以很容易的讓自己對於程式語法更快的了解，
+        偶爾無聊的時候會把某些網站拿來當練習，有不懂的地方就會問TA，對於網際程式的架構非常有興趣，希望之後能夠學到更多有關網站的架設。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
@@ -217,14 +219,14 @@ class Application(object):
         return self.use_template(content)
     #@+node:lee.20141223114246.47: *3* def link
     def link(self):
-        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "openshift app"),(self.github_repo_url, "github repo"),]
+        aviable_link = [("index", "HOME"), ("remark", "心得"), (self.openshift_url, "openshift猜數字"),(self.github_repo_url, "github倉儲"),]
         return aviable_link
     #@+node:lee.20141223114246.54: *3* def remark
     @cherrypy.expose
     def remark(self):
         # 這裡是心得
         # generate_headline_page(你的標題, 你的內容)
-        return self.generate_headline_page("REMARK", self.my_remark)
+        return self.generate_headline_page("期末心得", self.my_remark)
     #@+node:lee.20141223114246.48: *3* def index
     @cherrypy.expose
     def index(self):

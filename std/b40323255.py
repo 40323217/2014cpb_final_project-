@@ -17,18 +17,20 @@ class Application(object):
         # 你的學號
         self.number = '40323255'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/zhihzhengwen/2014cp-final'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://40323255final-40323255.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('期末自評分數 ', 85)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/nZbfDfGPjsL499XY'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        很感謝同學有耐心的教導，一開始只會推回openshift，現在大概瞭解要怎麼把openshift跟github同步了。
+這次期末報告最難的部分，我想就是推回github了，因為跟openshift不一樣，我們推openshift，只需輸入 git add . git commit -m " "還有git push，而github則是需要多git remote add git pull master還有git push master
+如果不懂她的用處，一定會卡住 做不出來 ；也感謝老師這學期的教導
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

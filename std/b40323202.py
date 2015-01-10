@@ -13,22 +13,22 @@ class Application(object):
     #@+node:lee.20141223114246.42: *3* def init
     def __init__(self):
     	#你的名子
-        self.name = '郭育維'
+        self.name = '林姿馨'
         # 你的學號
-        self.number = '40323237'
+        self.number = '40323202'
         # 你的班級
-        self.classes = '四設計一乙'
+        self.classes = '設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/as19735/40323237'
+        self.github_repo_url = 'https://github.com/40323202/2014cp_project_40323202.git'
         # 你的 openshift app
-        self.openshift_url = 'http://40323237a-pythona.rhcloud.com/'
+        self.openshift_url = 'http://b40323202-40323202.rhcloud.com/doCheck'
         # 你的自評
-        self.evaluation = [('期末自評分數', 85)]
+        self.evaluation = [('Project 7', 95), ('Project 8', 95), ('Project 9', 95)]
         # 你的照片 url
-        self.photo_url = 'https://copy.com/u9qlpSTCsqd4DVp4'
+        self.photo_url = 'https://copy.com/MWbKHNXOSyj6Pkvd'
         # 這裡是心得
         self.my_remark = """
-       這次期末報告中，常常需要使用到GITCLONE、PUSH、PULL等等指令，若沒有同學們的幫助可能很難做得出來。而猜數字的程式碼更是不簡單，幾個人研究了好久還是不行..在經過一番努力之後終於成功了!
+        計算機程式是一門很深奧的課程，很榮幸有同學，老師和助教教我，讓我從原來沒有的概念，經過老師的教導和大家的幫助，建立起了一些概念，使我獲益良多。能成功的完成，和指令有很大的關聯性。指令的順序不可以顛倒，也不可以打錯指令。指令一打錯就無法成功的執行，就會失敗。所以一定要給電腦正確的指令，電腦才能成功的跑出我想要的結果。在就讀高職期間，完全沒有學習任何和程式有關的課程，剛開始學時感到非常的困難，最後到弄懂並成功的完成時，很高興的知道自己也能完成一開始自己覺得無法完成的事情。從今以後要繼續的努力把不懂的事情弄懂，加油!
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template

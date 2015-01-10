@@ -19,16 +19,20 @@ class Application(object):
         # 你的班級
         self.classes = '設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/40323207/2014_cp_project_40323207.git'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://b40323207-40323207.rhcloud.com/doCheck'
         # 你的自評
-        self.evaluation = [('Project 7', 70), ('Project 8', 70), ('Project 9', 70)]
+        self.evaluation = [('上課出席',20),('未遲到',20),('上課專心度',15),('功課繳交',15),('回家練習',12),('總分',82)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/Q7UDf4ZXdOTG'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+         一開始會不知道該如何下手，是在12/29早上上課的時候一直詢問同學，才有一些概念，晚上的時候也很謝謝 ta 能夠教我們。在推檔案的過程中，常常會推不上去，這時候就要看下面的文字，才能找出錯誤的地方，12/30在把檔案推至班上的Openshift時就一直推不上去，後來才知道是因為網路不穩的關係。
+
+      另外，因為這些錯誤的過程學到了一些東西，如:一開始以為git clone 加{網址}是要把東西推到{網址}的地方，後來才知道是要把{網址}所擁有的檔案抓下來。
+
+      經過期末報告學到了其中的流程，感覺比較進入狀況，另外每個指令都有它的意義，一開始只是盲目的跟著操作，之後經過老師和ta的講解，加上同學互相學習和自己摸索，才知道他的意義，不過也發現了還有很多事自己不知道的，或者搞錯他的意思的，收穫很多，謝謝老師和ta也很感謝同學們。
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
