@@ -17,18 +17,22 @@ class Application(object):
         # 你的學號
         self.number = '40323256'
         # 你的班級
-        self.classes = 'nfu'
+        self.classes = '四設計一乙'
         # 你的 github repository url
-        self.github_repo_url = 'https://github.com/Openandgit/2014cpb_final_project-'
+        self.github_repo_url = 'https://github.com/starstarchen/40323256.git'
         # 你的 openshift app
-        self.openshift_url = 'http://cpb-nfutaiwan.rhcloud.com/'
+        self.openshift_url = 'http://40323256final-40323256.rhcloud.com/'
         # 你的自評
-        self.evaluation = [('Project 7', 80), ('Project 8', 90), ('Project 9', 100)]
+        self.evaluation = [('期末自我評分', 80)]
         # 你的照片 url
-        self.photo_url = 'http://placekitten.com/g/350/300'
+        self.photo_url = 'https://copy.com/AQzlx1wvWIOr9y96'
         # 這裡是心得
         self.my_remark = """
-        Computer Programming is good course
+        高職，我是綜高機械組的學生，在這之前只懂著爭取好的大學，漸漸地，意識到擁有一技之長也可以闖出一片天，
+        到了科大，想要學習更讓能自己引出興趣的東西。像這門課，是我從來沒有接觸過的東西(也許有，但是那只是照著課本照抄上去的)，
+        讓我感到特別新奇，老師在課堂上也會分享一些自己的經驗，讓我們意識到"社會"到底是甚麼樣子，也許理想，亦或是令人失望。不久的將來還是要面對，無法逃避。
+        因此必須趁現在累積自己的實力，當然，受人幫助對我來說是一定要的...非常感謝願意幫助我的同學。
+        也謝謝老師這一學期的奉獻與教導！
         """
 
     #@+node:lee.20141223114246.43: *3* def use_template
